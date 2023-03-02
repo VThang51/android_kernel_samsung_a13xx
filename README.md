@@ -1,4 +1,3 @@
-################################################################################
 1. How to Build
         - get Toolchain
                 get the proper toolchain packages from AOSP or CodeSourcery or ETC.
@@ -25,4 +24,4 @@
 
 3. How to Clean
         $ make clean
-################################################################################
+
