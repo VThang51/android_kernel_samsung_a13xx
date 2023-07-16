@@ -33,7 +33,8 @@ the problems which may result by upgrading your kernel.
 - EX)  `CLANG_TRIPLE=/usr/local/toolchain/clang/host/linux-x86/clang-r383902/bin/aarch64-linux-gnu- // check the location of toolchain`
 ### to Build
 ```bash
-export PLATFORM_VERSION=13
+export PLATFORM_VERSION=12
+export ANDROID_MAJOR_VERSION=s
 export ARCH=arm64
 make exynos850-a13xx_defconfig
 make
