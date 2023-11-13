@@ -35,6 +35,7 @@ the problems which may result by upgrading your kernel.
   - edit "`CLANG_TRIPLE`" to right path(You downloaded).
     - EX)  `CLANG_TRIPLE=<android platform directory you download>/android/prebuilts/clang/host/linux-x86/clang-r383902/bin/aarch64-linux-gnu-`
     - EX)  `CLANG_TRIPLE=/usr/local/toolchain/clang/host/linux-x86/clang-r383902/bin/aarch64-linux-gnu- // check the location of toolchain     `
+
 - to Build
 ```bash
 $ export PLATFORM_VERSION=13
@@ -42,6 +43,7 @@ $ export ARCH=arm64
 $ make exynos850-a13xx_defconfig
 $ make
 ```
+
 2. Output files
 - Kernel : `arch/arm64/boot/Image`
 - module : `drivers/*/*.ko`
