@@ -1,6 +1,6 @@
 # [README](README)
 ```bash
- Linux kernel
+Linux kernel
 ============
 
 There are several guides for kernel developers and users. These guides can
